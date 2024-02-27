@@ -1,1 +1,1 @@
-repositório do exercício de git do curso da EBAC
+# Repositório do curso fullstack Python da EBAC
