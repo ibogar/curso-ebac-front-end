@@ -6,10 +6,6 @@ let campoA = document.getElementById("numero-a");
 let campoB = document.getElementById("numero-b");
 let botao = document.getElementById("botao-submit");
 
-function isNumber(n) {
-    return typeof n === "number"
-}
-
 form.addEventListener("submit", function(e){
     e.preventDefault();
 })
