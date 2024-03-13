@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Zeyada&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    background-color: #1B1B3A;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #FF3562;
+    margin: 10vh 0;
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2vh 0;
+    width: 40%;
+}
+
+input {
+    background-color: rgba(158, 208, 230, 0.5);
+    border: #1B1B3A solid 1px;
+    border-radius: 6px;
+    outline: none;
+    padding: 1vh;
+    width: 70%;
+}
+
+input::placeholder {
+    color: rgba(27, 27, 58, 0.5);
+}
+
+button {
+    background-color: #A74482;
+    border: #1B1B3A solid 1px;
+    border-radius: 6px;
+    outline: none;
+    padding: 1vh;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+li {
+    color: #ED7D3A;
+    cursor: pointer;
+    margin: 2vh 0;
+}
+
+.checked-item {
+    text-decoration:line-through;
+}
