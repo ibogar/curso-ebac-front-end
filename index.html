@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Inscrição</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Inscreva-se na nossa newsletter!</h1>
+    </div>
+
+    <div class="container">
+        <form id="formulario">
+            <div class="campo">
+                <label for="nome">Nome completo</label>
+                <input type="text" name="nomeCompleto" required id="nome">
+            </div>
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" required id="email">
+            </div>
+            <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="text" name="telefone" required id="telefone">
+            </div>
+            <div class="campo">
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" required id="cpf">
+            </div>
+            <div class="campo">
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" required id="endereco">
+            </div>
+            <div class="campo">
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" required id="cep">
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.mask.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
