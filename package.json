@@ -1,0 +1,23 @@
+{
+  "name": "curso-ebac-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass source/main.scss build/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibogar/curso-ebac-front-end.git"
+  },
+  "author": "Iuri Portilho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibogar/curso-ebac-front-end/issues"
+  },
+  "homepage": "https://github.com/ibogar/curso-ebac-front-end#readme",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}
