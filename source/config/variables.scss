@@ -1,0 +1,6 @@
+@use "sass:color";
+
+$mainColor: #f5f6fa;
+$secondaryColor: #182C61;
+$btnColor: #44bd32;
+$btnHover: color.adjust($btnColor, $lightness: 5%);
