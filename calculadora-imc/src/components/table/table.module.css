@@ -1,0 +1,23 @@
+.resultado {
+    text-align: center;
+    background-color: #3D3D3D;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 8px;
+  text-align: center;
+}
+
+.ativo {
+  background: #ED7D3A;
+  color: #242424;
+  font-weight: bold;
+}

@@ -1,0 +1,29 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    margin: 1rem 0;
+    -moz-appearance: textfield;
+}
+
+.input:focus {
+  outline: none;
+  border-color: rgba(237,125, 58, 0.6);
+}
+
+.input::-webkit-inner-spin-button,
+.input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.formBtn {
+    background-color: #ED7D3A;
+    padding: 5px 0;
+    color: #242424;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
