@@ -1,0 +1,25 @@
+header {
+    background-color: @color-primary;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .container {
+        .flex-between();
+        padding: 16px 0;
+    }
+}
+
+.menu {
+    display: flex;
+
+    li {
+        font-weight: bold;
+        margin-left: 24px;
+
+        a {
+            color: @color-white;
+            text-decoration: none;
+        }
+    }
+}

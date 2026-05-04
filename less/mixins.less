@@ -1,0 +1,12 @@
+.flex-between() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid(@columns, @gapCol, @gapRow) {
+    display: grid;
+    grid-template-columns: repeat(@columns, 1fr);
+    column-gap: @gapCol;
+    row-gap: @gapRow;
+}
